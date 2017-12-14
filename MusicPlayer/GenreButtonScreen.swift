@@ -30,9 +30,7 @@ class GenreButtonScreen: UIViewController {
     }
     
     @objc func playGenre(genre: String) {
-        
-        musicPlayer.stop()
-        
+                
         let query = MPMediaQuery()
         let predicate = MPMediaPropertyPredicate(value: genre, forProperty: MPMediaItemPropertyGenre)
         
