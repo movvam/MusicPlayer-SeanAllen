@@ -21,7 +21,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
-	<string>I want to hear my jamzzzz!</string>
+	<string>I want to hear my music.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
