@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					EDD619C31EBBFEBE008B5C11 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = H69U55MWXW;
+						DevelopmentTeam = 5NNH37XP3E;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -281,10 +281,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H69U55MWXW;
+				DEVELOPMENT_TEAM = 5NNH37XP3E;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.seanallen.MusicPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = co.manikanthmovva.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -294,10 +295,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H69U55MWXW;
+				DEVELOPMENT_TEAM = 5NNH37XP3E;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.seanallen.MusicPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = co.manikanthmovva.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
