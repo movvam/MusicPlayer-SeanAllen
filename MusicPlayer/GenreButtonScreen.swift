@@ -3,7 +3,7 @@ import MediaPlayer
 
 class GenreButtonScreen: UIViewController {
     
-    var musicPlayer = MPMusicPlayerController.applicationMusicPlayer()
+    @objc var musicPlayer = MPMusicPlayerController.applicationMusicPlayer
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class GenreButtonScreen: UIViewController {
         musicPlayer.skipToNextItem()
     }
     
-    func playGenre(genre: String) {
+    @objc func playGenre(genre: String) {
         
         musicPlayer.stop()
         
