@@ -14,7 +14,9 @@ class GenreButtonScreen: UIViewController {
         
         MPMediaLibrary.requestAuthorization { (status) in
             if status == .authorized {
-                self.playGenre(genre: sender.currentTitle!)
+                DispatchQueue.main.async {
+                    self.playGenre(genre: sender.currentTitle!)
+                }
             }
         }
     }
