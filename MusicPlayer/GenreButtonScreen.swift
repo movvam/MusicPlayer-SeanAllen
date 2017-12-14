@@ -16,6 +16,8 @@ class GenreButtonScreen: UIViewController {
             if status == .authorized {
                 DispatchQueue.main.async {
                     self.playGenre(genre: sender.currentTitle!)
+                    
+                    //var audioSession = musicPlayer.
                 }
             }
         }
@@ -30,7 +32,7 @@ class GenreButtonScreen: UIViewController {
     }
     
     @objc func playGenre(genre: String) {
-                
+        
         let query = MPMediaQuery()
         let predicate = MPMediaPropertyPredicate(value: genre, forProperty: MPMediaItemPropertyGenre)
         
